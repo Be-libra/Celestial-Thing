@@ -1,0 +1,16 @@
+.design{
+
+	cursor: pointer;
+	padding-left: 30px;
+	padding-right:30px;
+	border-radius: 30px;
+	background: white;
+	margin-top: 20px;
+}
+ .view{
+ 	display:grid;
+ 	grid-gap: 10px;
+ 	margin-top: 30px;
+ 	grid-template-columns:repeat(auto-fill,minmax(500px,1fr));
+
+ }

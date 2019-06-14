@@ -1,0 +1,84 @@
+import React from 'react';
+
+
+const Universe =() =>{
+
+	return(
+			<div >
+			<article className="athelas">
+				  <div className="vh-100 dt w-100 tc  bg-dark-gray black cover " style={{background:'url(https://wp-assets.futurism.com/2019/04/hubble-data-universe-expanding-faster-1200x630.png) no-repeat center'}}>
+				    <div className="dtc  v-mid">
+				      <h1 className="f1 f-headline-l fw1 i white-60"> Universe</h1>
+				    </div>
+				  </div>
+				  <div className="center measure-wide f5 pv5 lh-copy ph2">
+				    <h1 className="f1 lh-title"> The universe is a pretty big place. 
+				    If it's just us, seems like an awful waste of space...</h1>
+				    
+				    <p>
+				    	The Universe is all of space and time and their contents, including planets, 
+				    	stars, galaxies, and all other forms of matter and energy.  
+				    </p>
+				    <p>
+				    <h4>Mass(Ordinary matter):</h4>At least 1053 kg	
+				    </p> 
+
+				    <p>
+				    <h4>Main Contents:</h4>Ordinary (baryonic) matter (4.9%); Dark matter
+				    (26.8%); Dark energy (68.3%)
+				    </p>
+
+				    <p>
+				    <h4>Age(Within  Lambda-CDM Model ):</h4>13.799 ± 0.021 billion years
+				    </p> 
+
+				    <p>
+				    <h4>Shape:</h4>Flat with a 0.4% margin of error
+				    </p> 
+
+				    <p>
+				    <h4>Diameter:</h4>Unknown. Diameter of the observable universe: 8.8×1026 m
+				     (28.5 Gpc or 93 Gly)
+				    </p> 
+
+				    <img src='data:image/jpeg;base64,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' alt='universe' /> 
+				    
+				    <p>
+				      Universe is the name that we use to describe the collection of all the things 
+				      that exist in space. It is made of many millions of millions of stars and planets 
+				      and enormous clouds of gas separated by a gigantic empty space which is called the 
+				      universe.
+				    </p>
+
+				    <h1 className='f1 lh-title'>
+				    	Formation Of Universe
+				    </h1>
+				    <p>
+				    	The Big Bang theory is the prevailing cosmological description of the development
+				    	 of the Universe. Under this theory, space and time emerged together 13.799±0.021
+				    	  billion years ago and the energy and matter initially present have become 
+				    	  less dense as the Universe expanded. After an initial accelerated expansion 
+				    	  called the inflationary epoch at around 10−32 seconds, and the separation of 
+				    	  the four known fundamental forces, the Universe gradually cooled and continued 
+				    	  to expand, allowing the first subatomic particles and simple atoms to form. 
+				    	  Dark matter gradually gathered forming a foam-like structure of filaments and 
+				    	  voids under the influence of gravity. Giant clouds of hydrogen and helium were 
+				    	  gradually drawn to the places where dark matter was most dense, forming the 
+				    	  first galaxies, stars, and everything else seen today. It is possible to see 
+				    	  objects that are now further away than 13.799 billion light-years because space 
+				    	  itself has expanded, and it is still expanding today. This means that objects
+				    	  which are now up to 46.5 billion light-years away can still be seen in their 
+				    	  distant past, because in the past when their light was emitted, they were much 
+				    	  closer to the Earth.
+				    </p>
+				   	<img src='http://cdn.spacetelescope.org/archives/images/screen/opo9919k.jpg' alt='expanding universe' />
+				   	<img src='https://cdn-images-1.medium.com/max/1200/1*3iXx8fmV_WJ-xIHco6lwEg.jpeg' alt='expanding universe' /> 
+				   
+				    </div>
+				</article>
+			</div>	
+		);
+
+}
+
+export default Universe;
